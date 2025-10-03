@@ -1,1 +1,1 @@
-# 7CS107_PracticalWorks_Assignment
+# 7CS107 Practical Works Assignment
