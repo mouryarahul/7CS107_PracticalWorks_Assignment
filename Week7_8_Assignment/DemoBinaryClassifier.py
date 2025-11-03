@@ -8,7 +8,6 @@ from Scheduler import StepLR
 
 from torch.utils.data import DataLoader
 from torch.utils.data import TensorDataset
-from Datasets import MyDataset
 
 from sklearn.datasets import make_circles, make_classification, make_moons
 
@@ -143,7 +142,7 @@ if __name__ == '__main__':
             lr_scheduler.step()
 
     # save the learned model parameters
-    model.save_params('Learned_Models/BinaryClassifier.pkl')
+    # model.save_params('Learned_Models/BinaryClassifier.pkl')
     print("Training Done!")
 
     #========================= Plot Loss and Accuracy w.r.t Epochs =============================#
